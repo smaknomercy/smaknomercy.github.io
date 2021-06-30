@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 50px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.projects{
+    display: flex;
+    min-height: 70vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.proj{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+    background-size: cover;
+}
+.proj:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.proj1{
+    background-image: url(img/ytdld1.png);    
+}
+.proj2{
+    background-image: url(img/QR\ Code\ Generator.png);
+}
+.proj3{
+    background-image: url(img/crack.jpg);
+}
+.proj4{
+    background-image: url(img/openweathermap.png);
+}
+.header {
+    z-index: 5;
+    width: 100%;
+    height: 30vh;
+}
+.nameheader{
+    font-size: 50px;
+    font-family: montserrat;
+}
+.btn{
+    display: flex;
+    font-family: montserrat;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid #333;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    transition: 200ms;
+}
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
